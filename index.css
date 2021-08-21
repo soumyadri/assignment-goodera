@@ -180,3 +180,49 @@ h1{
     margin-left: 60%;
     background-color: transparent;
 }
+
+
+/* Responsiveness Styling*/
+@media only screen and (max-width: 1200px) {
+    /* grid - responsive */
+    .show-job-container{
+        grid-template-columns: auto;
+    }
+    .job-update{
+        width: 100%;
+    }
+
+    /*job search responsive*/
+    .search-bar-container{
+        height: 70px;
+    }
+    .location-bar{
+        display: none;
+    }
+    .search-input-box{
+        width: 110px;
+    }
+    .search-button{
+        width: 150px;
+        padding: 15px;
+    }
+
+    /*NavBar Responsive*/
+    .option-navbar-container{
+        display: none;
+    }
+
+    /* Header Responsiveness */
+    .heading-container h1{
+        font-size: 32px;
+    }
+    .heading-container h4{
+        font-size: 18px;
+    }
+
+    /* dump image Responsiveness */
+    .dump-image{
+        width: 100px;
+        height: 100px;
+    }
+}
