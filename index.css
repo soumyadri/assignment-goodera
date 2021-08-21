@@ -6,11 +6,11 @@ body{
 }
 .top-container{
     background-color: #5896df;
-    height: 43vh;
+    height: 380px;
 }
 .bottom-container{
     background-color: #eaeaea;
-    height: 57vh;
+    height: 500px;
 }
 .navbar-container{
     display: flex;
@@ -88,4 +88,51 @@ h1{
     font-size: 22px;
     font-weight: 300;
     margin: 0;
+}
+
+
+/* Search Bar Container*/
+.search-bar-container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 80px;
+    box-shadow: 5px 5px 15px 15px rgba(128, 128, 128, 0.041);
+}
+.search-bar, .location-bar, .search-event{
+    margin: 0 5%;
+}
+.search-icon, .map-icon{
+    position: relative;
+    top: 15px;
+    width: 40px;
+}
+.search-input-box, select{
+    font-size: 16px;
+    border: transparent;
+    width: 220px;
+}
+.search-input-box::placeholder{
+    color: rgba(105, 105, 105, 0.774);
+}
+.select-label{
+    color: rgba(105, 105, 105, 0.774);
+    margin-left: 10px;
+}
+.search-button{
+    background-color: #f07987;
+    color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
