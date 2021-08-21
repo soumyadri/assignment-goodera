@@ -6,11 +6,13 @@ body{
 }
 .top-container{
     background-color: #5896df;
-    height: 40vh;
+    height: 380px;
 }
 .bottom-container{
     background-color: #eaeaea;
-    height: 60vh;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 .navbar-container{
     display: flex;
@@ -72,4 +74,109 @@ h1{
 }
 .right-option-navbar-container button:hover{
     text-decoration: underline;
+}
+
+/* Header container */
+.heading-container{
+    width: 80%;
+    margin: 4% auto;
+    color: #ffffff;
+}
+.heading-container h1{
+    font-size: 45px;
+    margin: 0;
+}
+.heading-container h4{
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+/* Search Bar Container*/
+.search-bar-container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    height: 80px;
+    box-shadow: 5px 5px 15px 15px rgba(128, 128, 128, 0.041);
+}
+.search-bar, .location-bar, .search-event{
+    margin: 0 5%;
+}
+.search-icon, .map-icon{
+    position: relative;
+    top: 15px;
+    width: 40px;
+}
+.search-input-box, select{
+    font-size: 16px;
+    border: transparent;
+    width: 220px;
+}
+.search-input-box::placeholder{
+    color: rgba(105, 105, 105, 0.774);
+}
+.select-label{
+    color: rgba(105, 105, 105, 0.774);
+    margin-left: 10px;
+}
+.search-button{
+    background-color: #f07987;
+    color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/* Job Update Container*/
+.show-job-container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+}
+.job-update{
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.dump-image{
+    width: 180px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: dimgray;
+    margin: 20px 20px;
+}
+.dummy-text{
+    font-size: 14px;
+    color: grey;
+    text-align: justify;
+}
+.header-job-description{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.details-button{
+    border: 3px solid pink;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 60%;
+    background-color: transparent;
 }
