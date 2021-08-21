@@ -6,11 +6,11 @@ body{
 }
 .top-container{
     background-color: #5896df;
-    height: 40vh;
+    height: 43vh;
 }
 .bottom-container{
     background-color: #eaeaea;
-    height: 60vh;
+    height: 57vh;
 }
 .navbar-container{
     display: flex;
@@ -72,4 +72,20 @@ h1{
 }
 .right-option-navbar-container button:hover{
     text-decoration: underline;
+}
+
+/* Header container */
+.heading-container{
+    width: 80%;
+    margin: 4% auto;
+    color: #ffffff;
+}
+.heading-container h1{
+    font-size: 45px;
+    margin: 0;
+}
+.heading-container h4{
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
 }
