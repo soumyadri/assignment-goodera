@@ -1,3 +1,75 @@
+/* Primary container */
 body{
-    background-color: #5d96df;
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-container{
+    background-color: #5896df;
+    height: 40vh;
+}
+.bottom-container{
+    background-color: #eaeaea;
+    height: 60vh;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+/*Attribute Tag*/
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* Logo Attribute Tag */
+.logo-container{
+    display: flex;
+    flex-direction: row;
+}
+.logo-icon{
+    width: 40px;
+    height: 40px;
+    padding: 17% 1%;
+}
+.logo-text{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+}
+/* Option Attribute*/
+.option-navbar-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5%;
+}
+.option-navbar-container button{
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 2% 0;
+}
+.option-navbar-container button:hover{
+    text-decoration: underline;
+}
+
+.right-option-navbar-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 5% 0 auto; 
+    font-weight: 400;
+}
+.right-option-navbar-container button{
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 2% 0;
+}
+.right-option-navbar-container button:hover{
+    text-decoration: underline;
 }
