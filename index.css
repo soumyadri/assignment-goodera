@@ -10,7 +10,9 @@ body{
 }
 .bottom-container{
     background-color: #eaeaea;
-    height: 500px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 .navbar-container{
     display: flex;
@@ -135,4 +137,46 @@ h1{
     position: relative;
     top: 10px;
     left: 10px;
+}
+
+/* Job Update Container*/
+.show-job-container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+}
+.job-update{
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.dump-image{
+    width: 180px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: dimgray;
+    margin: 20px 20px;
+}
+.dummy-text{
+    font-size: 14px;
+    color: grey;
+    text-align: justify;
+}
+.header-job-description{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.details-button{
+    border: 3px solid pink;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 60%;
+    background-color: transparent;
 }
